@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+input[type=text] {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 3px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+}
+input[type=email] {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 3px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+}
+input[type=submit] {
+  width: 34%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 3px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+}
+
+
+input[type=text]:focus {
+  border: 3px solid #555;
+}
+
+        #kk {
+            width: 30%;
+            padding: 50px;
+            border-radius: 10px;
+            background-color: lightgray;
+
+            position: absolute;
+            left: 37%;
+            top: 20%;
+        }
+
+        .cc {
+            padding: 6px 6px 6px;
+            background-color: darkturquoise;
+
+
+        }
+</style>
+<head>
+    <meta charset="UTF-8">
+    <title>add_input</title>
+</head>
+
+<body bgcolor="#5f9ea0">
+<center>
+    <form action="./send" id="kk">
+        <h1>Enter your Details Here </h1>
+        Enter first name:<input  type="text" name="fn"> <br>
+        Enter last name:<input type="text" name="ln"> <br>
+        Enter email id:<input type="email" name="em"> <br>
+        <input type="submit" value="send">
+
+    </form>
+</center>
+</body>
+</html>
